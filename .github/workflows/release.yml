@@ -34,6 +34,8 @@ jobs:
     needs: build
 
     steps:
+      - uses: actions/checkout@v3
+
       - uses: actions/download-artifact@v3
         with:
           name: build
@@ -53,5 +55,4 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run:
-          gh release upload ${{ steps.release.outputs.tag_name }} ${{ steps.release.outputs.tag_name }}.tar.gz
+        run: gh release upload ${{ steps.release.outputs.tag_name }} ${{ steps.release.outputs.tag_name }}.tar.gz

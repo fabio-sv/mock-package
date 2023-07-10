@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/FabioSVBBD/mock-package/compare/v1.1.2...v1.1.3) (2023-07-10)
+
+
+### Bug Fixes
+
+* **workflow:** Fixed upload step ([00abceb](https://github.com/FabioSVBBD/mock-package/commit/00abceb42f0b61ad26df7e4becde4b156090ac80))
+
 ## [1.1.2](https://github.com/FabioSVBBD/mock-package/compare/v1.1.1...v1.1.2) (2023-07-10)
 
 

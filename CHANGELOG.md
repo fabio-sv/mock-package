@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/FabioSVBBD/mock-package/compare/v1.0.1...v1.1.0) (2023-07-10)
+
+
+### Features
+
+* **workflow:** Testing Updated release ([4e34f4f](https://github.com/FabioSVBBD/mock-package/commit/4e34f4fbd580f98cace269288d4868d2335b4c5f))
+
 ## [1.0.1](https://github.com/FabioSVBBD/mock-package/compare/v1.0.0...v1.0.1) (2023-07-10)
 
 

@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.0.0](https://github.com/FabioSVBBD/mock-package/compare/v1.1.3...v2.0.0) (2023-07-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* **woop:** added woop in div
+
+### Features
+
+* **husky:** added husky and commitlint ([be7cbf9](https://github.com/FabioSVBBD/mock-package/commit/be7cbf9545e9045fb762415fd5793677215f5b41))
+* **woop:** added woop in div ([3cfa450](https://github.com/FabioSVBBD/mock-package/commit/3cfa4507666c5e5cdf2c9b692006969040526fe0))
+
+
+### Bug Fixes
+
+* **counter:** added exclamations to counter.ts ([2e71e87](https://github.com/FabioSVBBD/mock-package/commit/2e71e872ad30e301b6589706451f7db5234324d9))
+
 ## [1.1.3](https://github.com/FabioSVBBD/mock-package/compare/v1.1.2...v1.1.3) (2023-07-10)
 
 

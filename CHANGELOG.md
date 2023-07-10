@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/FabioSVBBD/mock-package/compare/v1.1.0...v1.1.1) (2023-07-10)
+
+
+### Bug Fixes
+
+* **workflow:** Added id to release step ([aa3fe23](https://github.com/FabioSVBBD/mock-package/commit/aa3fe2394079d5bd5902c7883c38f10c85d45262))
+
 ## [1.1.0](https://github.com/FabioSVBBD/mock-package/compare/v1.0.1...v1.1.0) (2023-07-10)
 
 

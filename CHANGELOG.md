@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.2](https://github.com/FabioSVBBD/mock-package/compare/v1.1.1...v1.1.2) (2023-07-10)
+
+
+### Bug Fixes
+
+* **workflow:** Moved to yarn ([a0d419a](https://github.com/FabioSVBBD/mock-package/commit/a0d419a70a24fb93a3acf39b74f9c0f9299b3e66))
+* **workflow:** Moved to yarn 2 ([74248b1](https://github.com/FabioSVBBD/mock-package/commit/74248b1ed2fe9c47d4f57c96409e39596b8e0906))
+* **workflow:** Updated release asset handling ([52b6476](https://github.com/FabioSVBBD/mock-package/commit/52b64769b1c053a24fa7fab889ab6f432ede3ed6))
+
 ## [1.1.1](https://github.com/FabioSVBBD/mock-package/compare/v1.1.0...v1.1.1) (2023-07-10)
 
 

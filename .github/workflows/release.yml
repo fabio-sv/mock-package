@@ -40,6 +40,7 @@ jobs:
         run: ls -R
 
       - uses: google-github-actions/release-please-action@v3
+        id: release
         with:
           release-type: node
           package-name: mock-package

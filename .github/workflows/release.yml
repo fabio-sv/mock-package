@@ -22,10 +22,12 @@ jobs:
       - run: npm i
       - run: npm run build --if-present
 
+      - run: npm pack --filename build.tar.gz
+
       - uses: actions/upload-artifact@v3
         with:
           name: build
-          path: dist/
+          path: build.tar.gz
 
   release:
     runs-on: ubuntu-latest
@@ -36,18 +38,20 @@ jobs:
         with:
           name: build
 
-      - name: Display structure of downloaded files
-        run: ls -R
-
       - uses: google-github-actions/release-please-action@v3
         id: release
         with:
           release-type: node
           package-name: mock-package
 
+      - run: |
+          mv build.tar.gz ${{ steps.release.outputs.tag_name }}.tar.gz
+          rm -rf build.tar.gz
+        if: ${{ steps.release.outputs.release_created }}
+
       - name: Upload Release Artifact
         if: ${{ steps.release.outputs.release_created }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run:
-          gh release upload ${{ steps.release.outputs.tag_name }} ./dist/
+          gh release upload ${{ steps.release.outputs.tag_name }} ${{ steps.release.outputs.tag_name }}.tar.gz
